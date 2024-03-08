@@ -99,7 +99,7 @@ const App = () => {
             Obter Frase de Kanye West
           </button>
         </div>
-        <div className="mt-4 text-center text-3xl italic tracking-wide leading-8 text-white bg-black bg-opacity-50 w-1/3">
+        <div className="mt-4 text-center text-3xl italic tracking-wide leading-8 text-white bg-black bg-opacity-50 max-w-3xl">
           {fraseKanye && <p>{fraseKanye}</p>}
           {erro && <p>{erro}</p>}
         </div>
